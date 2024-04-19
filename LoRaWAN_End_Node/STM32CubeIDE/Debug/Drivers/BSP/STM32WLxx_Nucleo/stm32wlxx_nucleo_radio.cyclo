@@ -1,0 +1,7 @@
+D:/PM_2022/LoRA Module/STM32Cube_FW_WL_V1.3.0/Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo_radio.c:46:9:BSP_RADIO_Init	1
+D:/PM_2022/LoRA Module/STM32Cube_FW_WL_V1.3.0/Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo_radio.c:98:9:BSP_RADIO_DeInit	1
+D:/PM_2022/LoRA Module/STM32Cube_FW_WL_V1.3.0/Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo_radio.c:138:9:BSP_RADIO_ConfigRFSwitch	5
+D:/PM_2022/LoRA Module/STM32Cube_FW_WL_V1.3.0/Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo_radio.c:210:9:BSP_RADIO_GetTxConfig	1
+D:/PM_2022/LoRA Module/STM32Cube_FW_WL_V1.3.0/Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo_radio.c:226:9:BSP_RADIO_IsTCXO	1
+D:/PM_2022/LoRA Module/STM32Cube_FW_WL_V1.3.0/Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo_radio.c:238:9:BSP_RADIO_IsDCDC	1
+D:/PM_2022/LoRA Module/STM32Cube_FW_WL_V1.3.0/Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo_radio.c:249:9:BSP_RADIO_GetRFOMaxPowerConfig	2
