@@ -16,3 +16,8 @@ The method to use start material for developing source code with RAK3172-Sip wit
 
 Please note: 
 This process should be repeated if you make any modifications using STM32CubeMx.
+
+
+reference information
+#RF Switch Control Table
+https://docs.rakwireless.com/Product-Categories/WisDuo/RAK3172-SiP/Application-Note/#rf-harmonic-compression
