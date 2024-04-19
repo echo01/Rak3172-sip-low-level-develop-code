@@ -19,5 +19,9 @@ This process should be repeated if you make any modifications using STM32CubeMx.
 
 
 reference information
-#RF Switch Control Table
+
+RF Switch Control Table
 https://docs.rakwireless.com/Product-Categories/WisDuo/RAK3172-SiP/Application-Note/#rf-harmonic-compression
+Low level develop code ref.
+https://docs.rakwireless.com/Product-Categories/WisDuo/RAK3172-Module/Low-Level-Development/#installation-of-stm32cube-ide
+
