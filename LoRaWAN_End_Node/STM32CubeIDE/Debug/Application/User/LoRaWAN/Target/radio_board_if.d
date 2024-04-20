@@ -1,6 +1,6 @@
 Application/User/LoRaWAN/Target/radio_board_if.o: \
- D:/PM_2022/LoRA\ Module/STM32Cube_FW_WL_V1.3.0/Projects/NUCLEO-WL55JC/Applications/LoRaWAN/LoRaWAN_End_Node/LoRaWAN/Target/radio_board_if.c \
- D:/PM_2022/LoRA\ Module/STM32Cube_FW_WL_V1.3.0/Projects/NUCLEO-WL55JC/Applications/LoRaWAN/LoRaWAN_End_Node/LoRaWAN/Target/radio_board_if.h \
+ D:/Product/LoRa/RAK/STM32Cube_FW_WL_V1.3.0/Projects/NUCLEO-WL55JC/Applications/LoRaWAN/LoRaWAN_End_Node/LoRaWAN/Target/radio_board_if.c \
+ D:/Product/LoRa/RAK/STM32Cube_FW_WL_V1.3.0/Projects/NUCLEO-WL55JC/Applications/LoRaWAN/LoRaWAN_End_Node/LoRaWAN/Target/radio_board_if.h \
  ../../Core/Inc/platform.h \
  ../../../../../../../Drivers/CMSIS/Device/ST/STM32WLxx/Include/stm32wlxx.h \
  ../../../../../../../Drivers/CMSIS/Device/ST/STM32WLxx/Include/stm32wl55xx.h \
@@ -39,14 +39,16 @@ Application/User/LoRaWAN/Target/radio_board_if.o: \
  ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal_rtc_ex.h \
  ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal_subghz.h \
  ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_spi.h \
- ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal_tim.h \
- ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal_tim_ex.h \
  ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal_uart.h \
  ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal_uart_ex.h \
  ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_system.h \
  ../../Core/Inc/main.h \
- ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_gpio.h
-D:/PM_2022/LoRA\ Module/STM32Cube_FW_WL_V1.3.0/Projects/NUCLEO-WL55JC/Applications/LoRaWAN/LoRaWAN_End_Node/LoRaWAN/Target/radio_board_if.h:
+ ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_gpio.h \
+ ../../../../../../../Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo_radio.h \
+ ../../../../../../../Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo_errno.h \
+ ../../Core/Inc/stm32wlxx_nucleo_conf.h \
+ ../../../../../../../Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo.h
+D:/Product/LoRa/RAK/STM32Cube_FW_WL_V1.3.0/Projects/NUCLEO-WL55JC/Applications/LoRaWAN/LoRaWAN_End_Node/LoRaWAN/Target/radio_board_if.h:
 ../../Core/Inc/platform.h:
 ../../../../../../../Drivers/CMSIS/Device/ST/STM32WLxx/Include/stm32wlxx.h:
 ../../../../../../../Drivers/CMSIS/Device/ST/STM32WLxx/Include/stm32wl55xx.h:
@@ -85,10 +87,12 @@ D:/PM_2022/LoRA\ Module/STM32Cube_FW_WL_V1.3.0/Projects/NUCLEO-WL55JC/Applicatio
 ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal_rtc_ex.h:
 ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal_subghz.h:
 ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_spi.h:
-../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal_tim.h:
-../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal_tim_ex.h:
 ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal_uart.h:
 ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal_uart_ex.h:
 ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_system.h:
 ../../Core/Inc/main.h:
 ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_gpio.h:
+../../../../../../../Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo_radio.h:
+../../../../../../../Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo_errno.h:
+../../Core/Inc/stm32wlxx_nucleo_conf.h:
+../../../../../../../Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo.h:

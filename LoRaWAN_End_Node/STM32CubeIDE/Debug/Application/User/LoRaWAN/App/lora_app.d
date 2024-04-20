@@ -1,5 +1,5 @@
 Application/User/LoRaWAN/App/lora_app.o: \
- D:/PM_2022/LoRA\ Module/STM32Cube_FW_WL_V1.3.0/Projects/NUCLEO-WL55JC/Applications/LoRaWAN/LoRaWAN_End_Node/LoRaWAN/App/lora_app.c \
+ D:/Product/LoRa/RAK/STM32Cube_FW_WL_V1.3.0/Projects/NUCLEO-WL55JC/Applications/LoRaWAN/LoRaWAN_End_Node/LoRaWAN/App/lora_app.c \
  ../../Core/Inc/platform.h \
  ../../../../../../../Drivers/CMSIS/Device/ST/STM32WLxx/Include/stm32wlxx.h \
  ../../../../../../../Drivers/CMSIS/Device/ST/STM32WLxx/Include/stm32wl55xx.h \
@@ -38,13 +38,15 @@ Application/User/LoRaWAN/App/lora_app.o: \
  ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal_rtc_ex.h \
  ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal_subghz.h \
  ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_spi.h \
- ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal_tim.h \
- ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal_tim_ex.h \
  ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal_uart.h \
  ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal_uart_ex.h \
  ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_system.h \
  ../../Core/Inc/main.h \
  ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_gpio.h \
+ ../../../../../../../Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo_radio.h \
+ ../../../../../../../Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo_errno.h \
+ ../../Core/Inc/stm32wlxx_nucleo_conf.h \
+ ../../../../../../../Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo.h \
  ../../Core/Inc/sys_app.h ../../Core/Inc/sys_conf.h \
  ../../../../../../../Utilities/trace/adv_trace/stm32_adv_trace.h \
  ../../Core/Inc/utilities_conf.h \
@@ -52,14 +54,14 @@ Application/User/LoRaWAN/App/lora_app.o: \
  ../../../../../../../Utilities/misc/stm32_mem.h \
  ../../../../../../../Utilities/misc/stm32_tiny_vsnprintf.h \
  ../../Core/Inc/utilities_def.h \
- D:/PM_2022/LoRA\ Module/STM32Cube_FW_WL_V1.3.0/Projects/NUCLEO-WL55JC/Applications/LoRaWAN/LoRaWAN_End_Node/LoRaWAN/App/lora_app.h \
+ D:/Product/LoRa/RAK/STM32Cube_FW_WL_V1.3.0/Projects/NUCLEO-WL55JC/Applications/LoRaWAN/LoRaWAN_End_Node/LoRaWAN/App/lora_app.h \
  ../../../../../../../Utilities/sequencer/stm32_seq.h \
  ../../../../../../../Utilities/timer/stm32_timer.h \
  ../../Core/Inc/utilities_def.h \
- D:/PM_2022/LoRA\ Module/STM32Cube_FW_WL_V1.3.0/Projects/NUCLEO-WL55JC/Applications/LoRaWAN/LoRaWAN_End_Node/LoRaWAN/App/app_version.h \
+ D:/Product/LoRa/RAK/STM32Cube_FW_WL_V1.3.0/Projects/NUCLEO-WL55JC/Applications/LoRaWAN/LoRaWAN_End_Node/LoRaWAN/App/app_version.h \
  ../../../../../../../Middlewares/Third_Party/LoRaWAN/LmHandler/lorawan_version.h \
  ../../../../../../../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/subghz_phy_version.h \
- D:/PM_2022/LoRA\ Module/STM32Cube_FW_WL_V1.3.0/Projects/NUCLEO-WL55JC/Applications/LoRaWAN/LoRaWAN_End_Node/LoRaWAN/App/lora_info.h \
+ D:/Product/LoRa/RAK/STM32Cube_FW_WL_V1.3.0/Projects/NUCLEO-WL55JC/Applications/LoRaWAN/LoRaWAN_End_Node/LoRaWAN/App/lora_info.h \
  ../../../../../../../Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.h \
  ../../../../../../../Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandlerTypes.h \
  ../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacInterfaces.h \
@@ -78,7 +80,7 @@ Application/User/LoRaWAN/App/lora_app.o: \
  ../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassBNvm.h \
  ../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionVersion.h \
  ../../Core/Inc/adc_if.h ../../Core/Inc/adc.h ../../Core/Inc/platform.h \
- D:/PM_2022/LoRA\ Module/STM32Cube_FW_WL_V1.3.0/Projects/NUCLEO-WL55JC/Applications/LoRaWAN/LoRaWAN_End_Node/LoRaWAN/App/CayenneLpp.h \
+ D:/Product/LoRa/RAK/STM32Cube_FW_WL_V1.3.0/Projects/NUCLEO-WL55JC/Applications/LoRaWAN/LoRaWAN_End_Node/LoRaWAN/App/CayenneLpp.h \
  ../../Core/Inc/sys_sensors.h ../../Core/Inc/flash_if.h
 ../../Core/Inc/platform.h:
 ../../../../../../../Drivers/CMSIS/Device/ST/STM32WLxx/Include/stm32wlxx.h:
@@ -118,13 +120,15 @@ Application/User/LoRaWAN/App/lora_app.o: \
 ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal_rtc_ex.h:
 ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal_subghz.h:
 ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_spi.h:
-../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal_tim.h:
-../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal_tim_ex.h:
 ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal_uart.h:
 ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal_uart_ex.h:
 ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_system.h:
 ../../Core/Inc/main.h:
 ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_gpio.h:
+../../../../../../../Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo_radio.h:
+../../../../../../../Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo_errno.h:
+../../Core/Inc/stm32wlxx_nucleo_conf.h:
+../../../../../../../Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo.h:
 ../../Core/Inc/sys_app.h:
 ../../Core/Inc/sys_conf.h:
 ../../../../../../../Utilities/trace/adv_trace/stm32_adv_trace.h:
@@ -133,14 +137,14 @@ Application/User/LoRaWAN/App/lora_app.o: \
 ../../../../../../../Utilities/misc/stm32_mem.h:
 ../../../../../../../Utilities/misc/stm32_tiny_vsnprintf.h:
 ../../Core/Inc/utilities_def.h:
-D:/PM_2022/LoRA\ Module/STM32Cube_FW_WL_V1.3.0/Projects/NUCLEO-WL55JC/Applications/LoRaWAN/LoRaWAN_End_Node/LoRaWAN/App/lora_app.h:
+D:/Product/LoRa/RAK/STM32Cube_FW_WL_V1.3.0/Projects/NUCLEO-WL55JC/Applications/LoRaWAN/LoRaWAN_End_Node/LoRaWAN/App/lora_app.h:
 ../../../../../../../Utilities/sequencer/stm32_seq.h:
 ../../../../../../../Utilities/timer/stm32_timer.h:
 ../../Core/Inc/utilities_def.h:
-D:/PM_2022/LoRA\ Module/STM32Cube_FW_WL_V1.3.0/Projects/NUCLEO-WL55JC/Applications/LoRaWAN/LoRaWAN_End_Node/LoRaWAN/App/app_version.h:
+D:/Product/LoRa/RAK/STM32Cube_FW_WL_V1.3.0/Projects/NUCLEO-WL55JC/Applications/LoRaWAN/LoRaWAN_End_Node/LoRaWAN/App/app_version.h:
 ../../../../../../../Middlewares/Third_Party/LoRaWAN/LmHandler/lorawan_version.h:
 ../../../../../../../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/subghz_phy_version.h:
-D:/PM_2022/LoRA\ Module/STM32Cube_FW_WL_V1.3.0/Projects/NUCLEO-WL55JC/Applications/LoRaWAN/LoRaWAN_End_Node/LoRaWAN/App/lora_info.h:
+D:/Product/LoRa/RAK/STM32Cube_FW_WL_V1.3.0/Projects/NUCLEO-WL55JC/Applications/LoRaWAN/LoRaWAN_End_Node/LoRaWAN/App/lora_info.h:
 ../../../../../../../Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.h:
 ../../../../../../../Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandlerTypes.h:
 ../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacInterfaces.h:
@@ -162,6 +166,6 @@ D:/PM_2022/LoRA\ Module/STM32Cube_FW_WL_V1.3.0/Projects/NUCLEO-WL55JC/Applicatio
 ../../Core/Inc/adc_if.h:
 ../../Core/Inc/adc.h:
 ../../Core/Inc/platform.h:
-D:/PM_2022/LoRA\ Module/STM32Cube_FW_WL_V1.3.0/Projects/NUCLEO-WL55JC/Applications/LoRaWAN/LoRaWAN_End_Node/LoRaWAN/App/CayenneLpp.h:
+D:/Product/LoRa/RAK/STM32Cube_FW_WL_V1.3.0/Projects/NUCLEO-WL55JC/Applications/LoRaWAN/LoRaWAN_End_Node/LoRaWAN/App/CayenneLpp.h:
 ../../Core/Inc/sys_sensors.h:
 ../../Core/Inc/flash_if.h:

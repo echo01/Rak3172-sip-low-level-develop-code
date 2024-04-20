@@ -1,5 +1,5 @@
 Middlewares/LoRaWAN/RegionBaseUS.o: \
- D:/PM_2022/LoRA\ Module/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionBaseUS.c \
+ D:/Product/LoRa/RAK/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionBaseUS.c \
  ../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacTypes.h \
  ../../LoRaWAN/Target/timer.h \
  ../../../../../../../Utilities/timer/stm32_timer.h \
@@ -25,7 +25,7 @@ Middlewares/LoRaWAN/RegionBaseUS.o: \
  ../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassBNvm.h \
  ../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacHeaderTypes.h \
  ../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionNvm.h \
- D:/PM_2022/LoRA\ Module/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionBaseUS.h \
+ D:/Product/LoRa/RAK/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionBaseUS.h \
  ../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.h \
  ../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacInterfaces.h
 ../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacTypes.h:
@@ -54,6 +54,6 @@ Middlewares/LoRaWAN/RegionBaseUS.o: \
 ../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassBNvm.h:
 ../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacHeaderTypes.h:
 ../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionNvm.h:
-D:/PM_2022/LoRA\ Module/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionBaseUS.h:
+D:/Product/LoRa/RAK/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionBaseUS.h:
 ../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.h:
 ../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacInterfaces.h:

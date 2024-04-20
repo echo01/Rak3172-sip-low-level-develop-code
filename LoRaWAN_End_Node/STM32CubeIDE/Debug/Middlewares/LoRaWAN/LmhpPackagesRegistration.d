@@ -1,5 +1,5 @@
 Middlewares/LoRaWAN/LmhpPackagesRegistration.o: \
- D:/PM_2022/LoRA\ Module/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/LmhpPackagesRegistration.c \
+ D:/Product/LoRa/RAK/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/LmhpPackagesRegistration.c \
  ../../Core/Inc/platform.h \
  ../../../../../../../Drivers/CMSIS/Device/ST/STM32WLxx/Include/stm32wlxx.h \
  ../../../../../../../Drivers/CMSIS/Device/ST/STM32WLxx/Include/stm32wl55xx.h \
@@ -38,15 +38,17 @@ Middlewares/LoRaWAN/LmhpPackagesRegistration.o: \
  ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal_rtc_ex.h \
  ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal_subghz.h \
  ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_spi.h \
- ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal_tim.h \
- ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal_tim_ex.h \
  ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal_uart.h \
  ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal_uart_ex.h \
  ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_system.h \
  ../../Core/Inc/main.h \
  ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_gpio.h \
- D:/PM_2022/LoRA\ Module/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/LmhpPackagesRegistration.h \
- D:/PM_2022/LoRA\ Module/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/LmhPackage.h \
+ ../../../../../../../Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo_radio.h \
+ ../../../../../../../Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo_errno.h \
+ ../../Core/Inc/stm32wlxx_nucleo_conf.h \
+ ../../../../../../../Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo.h \
+ D:/Product/LoRa/RAK/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/LmhpPackagesRegistration.h \
+ D:/Product/LoRa/RAK/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/LmhPackage.h \
  ../../../../../../../Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandlerTypes.h \
  ../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacInterfaces.h \
  ../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacTypes.h \
@@ -109,15 +111,17 @@ Middlewares/LoRaWAN/LmhpPackagesRegistration.o: \
 ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal_rtc_ex.h:
 ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal_subghz.h:
 ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_spi.h:
-../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal_tim.h:
-../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal_tim_ex.h:
 ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal_uart.h:
 ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal_uart_ex.h:
 ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_system.h:
 ../../Core/Inc/main.h:
 ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_gpio.h:
-D:/PM_2022/LoRA\ Module/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/LmhpPackagesRegistration.h:
-D:/PM_2022/LoRA\ Module/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/LmhPackage.h:
+../../../../../../../Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo_radio.h:
+../../../../../../../Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo_errno.h:
+../../Core/Inc/stm32wlxx_nucleo_conf.h:
+../../../../../../../Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo.h:
+D:/Product/LoRa/RAK/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/LmhpPackagesRegistration.h:
+D:/Product/LoRa/RAK/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/LmhPackage.h:
 ../../../../../../../Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandlerTypes.h:
 ../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacInterfaces.h:
 ../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacTypes.h:

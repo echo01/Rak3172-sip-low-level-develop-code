@@ -40,7 +40,6 @@ extern "C" {
 
 /* LoraWAN application configuration (Mw is configured by lorawan_conf.h) */
 #define ACTIVE_REGION                               LORAMAC_REGION_AS923
-
 /* USER CODE BEGIN EC_CAYENNE_LPP */
 /*!
  * CAYENNE_LPP is myDevices Application server.

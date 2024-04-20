@@ -1,2 +1,2 @@
-D:/PM_2022/LoRA Module/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacParser.c:36:23:LoRaMacParserJoinAccept	5
-D:/PM_2022/LoRA Module/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacParser.c:80:23:LoRaMacParserData	4
+LoRaMacParser.c:36:23:LoRaMacParserJoinAccept	5
+LoRaMacParser.c:80:23:LoRaMacParserData	4

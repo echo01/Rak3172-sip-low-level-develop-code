@@ -1,3 +1,4 @@
+/* USER CODE BEGIN Header */
 /**
   ******************************************************************************
   * @file    radio_conf.h
@@ -6,16 +7,16 @@
   ******************************************************************************
   * @attention
   *
-  * <h2><center>&copy; Copyright (c) 2020 STMicroelectronics.
-  * All rights reserved.</center></h2>
+  * Copyright (c) 2021 STMicroelectronics.
+  * All rights reserved.
   *
-  * This software component is licensed by ST under Ultimate Liberty license
-  * SLA0044, the "License"; You may not use this file except in compliance with
-  * the License. You may obtain a copy of the License at:
-  *                             www.st.com/SLA0044
+  * This software is licensed under terms that can be found in the LICENSE file
+  * in the root directory of this software component.
+  * If no LICENSE file comes with this software, it is provided AS-IS.
   *
   ******************************************************************************
   */
+/* USER CODE END Header */
 
 /* Define to prevent recursive inclusion -------------------------------------*/
 #ifndef __RADIO_CONF_H__
@@ -28,7 +29,7 @@ extern "C" {
 /* Includes ------------------------------------------------------------------*/
 #include "platform.h"
 #include "subghz.h"
-#include "stm32_mem.h"
+#include "stm32_mem.h"       /* RADIO_MEMSET8 def in this file */
 #include "mw_log_conf.h"     /* mw trace conf */
 #include "radio_board_if.h"  /* low layer api (bsp) */
 #include "utilities_def.h"  /* low layer api (bsp) */
@@ -39,10 +40,70 @@ extern "C" {
 
 /* Exported types ------------------------------------------------------------*/
 /* USER CODE BEGIN ET */
-#define RAK3172_SIP_TCXO
+
 /* USER CODE END ET */
 
 /* Exported constants --------------------------------------------------------*/
+
+/**
+  * @brief drive value used anytime radio is NOT in TX low power mode
+  * @note override the default configuration of radio_driver.c
+  */
+#define SMPS_DRIVE_SETTING_DEFAULT  SMPS_DRV_40
+
+/**
+  * @brief drive value used anytime radio is in TX low power mode
+  *        TX low power mode is the worst case because the PA sinks from SMPS
+  *        while in high power mode, current is sunk directly from the battery
+  * @note override the default configuration of radio_driver.c
+  */
+#define SMPS_DRIVE_SETTING_MAX      SMPS_DRV_60
+
+/**
+  * @brief Provides the frequency of the chip running on the radio and the frequency step
+  * @remark These defines are used for computing the frequency divider to set the RF frequency
+  * @note override the default configuration of radio_driver.c
+  */
+#define XTAL_FREQ                   ( 32000000UL )
+
+/**
+  * @brief in XO mode, set internal capacitor (from 0x00 to 0x2F starting 11.2pF with 0.47pF steps)
+  * @note override the default configuration of radio_driver.c
+  */
+#define XTAL_DEFAULT_CAP_VALUE      ( 0x20UL )
+
+/**
+  * @brief voltage of vdd tcxo.
+  * @note override the default configuration of radio_driver.c
+  */
+#define TCXO_CTRL_VOLTAGE           TCXO_CTRL_1_7V
+
+/**
+  * @brief Radio maximum wakeup time (in ms)
+  * @note override the default configuration of radio_driver.c
+  */
+#define RF_WAKEUP_TIME              ( 1UL )
+
+/**
+  * @brief DCDC is enabled
+  * @remark this define is only used if the DCDC is present on the board
+  * @note override the default configuration of radio_driver.c
+  */
+#define DCDC_ENABLE                 ( 1UL )
+
+/* USER CODE BEGIN EC */
+/**
+  * @brief disable the Sigfox radio modulation
+  * @note enabled by default
+  */
+#define RADIO_SIGFOX_ENABLE 0
+
+/**
+  * @brief disable the radio generic features
+  * @note enabled by default
+  */
+#define RADIO_GENERIC_CONFIG_ENABLE 0
+
 /**
   * @brief Set RX pin to high or low level
   */
@@ -53,60 +114,11 @@ extern "C" {
   */
 #define DBG_GPIO_RADIO_TX(set_rst) PROBE_GPIO_##set_rst##_LINE(PROBE_LINE2_PORT, PROBE_LINE2_PIN);
 
-/**
-  * @brief Max payload buffer size
-  */
-#define RADIO_RX_BUF_SIZE          255
-
-/**
-  * @brief drive value used anytime radio is NOT in TX low power mode
-  */
-#define SMPS_DRIVE_SETTING_DEFAULT  SMPS_DRV_40
-
-/**
-  * @brief drive value used anytime radio is in TX low power mode
-  *        TX low power mode is the worst case because the PA sinks from SMPS
-  *        while in high power mode, current is sunk directly from the battery
-  */
-#define SMPS_DRIVE_SETTING_MAX      SMPS_DRV_60
-
-/**
-  * @brief in XO mode, set internal capacitor (from 0x00 to 0x2F starting 11.2pF with 0.47pF steps)
-  */
-// RAK3172 module
-//#define XTAL_DEFAULT_CAP_VALUE      0x10
-// RAK3172-Sip module
-//#define XTAL_DEFAULT_CAP_VALUE      ( 0x20UL )
-
-/**
-  * @brief Frequency error (in Hz) can be compensated here.
-  *        warning XO frequency error generates (de)modulator sampling time error which can not be compensated
-  */
-#define RF_FREQUENCY_ERROR          ((int32_t) 0)
-
-/**
-  * @brief voltage of vdd tcxo.
-  */
-
-
-
-//#define TCXO_CTRL_VOLTAGE           TCXO_CTRL_1_7V
-
-/* USER CODE BEGIN EC */
-// RAK3172-Sip module
-#define XTAL_DEFAULT_CAP_VALUE      ( 0x20UL )
-
-#if defined(RAK3172_SIP_TCXO)
-  #define TCXO_CTRL_VOLTAGE           TCXO_CTRL_3_0V
-#else
-  #define TCXO_CTRL_VOLTAGE           TCXO_CTRL_1_7V
-#endif
 /* USER CODE END EC */
 
 /* External variables --------------------------------------------------------*/
 /* USER CODE BEGIN EV */
-#define RF_WAKEUP_TIME              ( 1UL )
-#define DCDC_ENABLE                 ( 1UL )
+
 /* USER CODE END EV */
 
 /* Exported macros -----------------------------------------------------------*/
@@ -158,5 +170,3 @@ extern "C" {
 #endif
 
 #endif /* __RADIO_CONF_H__*/
-
-/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/

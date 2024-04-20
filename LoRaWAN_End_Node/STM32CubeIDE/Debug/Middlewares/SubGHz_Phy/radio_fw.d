@@ -1,5 +1,5 @@
 Middlewares/SubGHz_Phy/radio_fw.o: \
- D:/PM_2022/LoRA\ Module/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_fw.c \
+ D:/Product/LoRa/RAK/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_fw.c \
  ../../LoRaWAN/Target/timer.h \
  ../../../../../../../Utilities/timer/stm32_timer.h \
  ../../../../../../../Drivers/CMSIS/Include/cmsis_compiler.h \
@@ -8,7 +8,7 @@ Middlewares/SubGHz_Phy/radio_fw.o: \
  ../../../../../../../Utilities/misc/stm32_mem.h \
  ../../../../../../../Utilities/misc/stm32_tiny_vsnprintf.h \
  ../../Core/Inc/utilities_def.h \
- D:/PM_2022/LoRA\ Module/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_fw.h \
+ D:/Product/LoRa/RAK/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_fw.h \
  ../../../../../../../Middlewares/Third_Party/SubGHz_Phy/radio_def.h \
  ../../../../../../../Middlewares/Third_Party/SubGHz_Phy/radio_ex.h \
  ../../LoRaWAN/Target/radio_conf.h ../../Core/Inc/platform.h \
@@ -48,19 +48,21 @@ Middlewares/SubGHz_Phy/radio_fw.o: \
  ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal_rtc_ex.h \
  ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal_subghz.h \
  ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_spi.h \
- ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal_tim.h \
- ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal_tim_ex.h \
  ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal_uart.h \
  ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal_uart_ex.h \
  ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_system.h \
  ../../Core/Inc/main.h \
  ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_gpio.h \
+ ../../../../../../../Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo_radio.h \
+ ../../../../../../../Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo_errno.h \
+ ../../Core/Inc/stm32wlxx_nucleo_conf.h \
+ ../../../../../../../Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo.h \
  ../../Core/Inc/subghz.h ../../LoRaWAN/Target/mw_log_conf.h \
  ../../../../../../../Utilities/trace/adv_trace/stm32_adv_trace.h \
  ../../LoRaWAN/Target/radio_board_if.h ../../Core/Inc/utilities_def.h \
  ../../Core/Inc/sys_debug.h ../../Core/Inc/sys_conf.h \
  ../../Core/Inc/platform.h \
- D:/PM_2022/LoRA\ Module/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.h \
+ D:/Product/LoRa/RAK/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.h \
  ../../LoRaWAN/Target/mw_log_conf.h
 ../../LoRaWAN/Target/timer.h:
 ../../../../../../../Utilities/timer/stm32_timer.h:
@@ -70,7 +72,7 @@ Middlewares/SubGHz_Phy/radio_fw.o: \
 ../../../../../../../Utilities/misc/stm32_mem.h:
 ../../../../../../../Utilities/misc/stm32_tiny_vsnprintf.h:
 ../../Core/Inc/utilities_def.h:
-D:/PM_2022/LoRA\ Module/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_fw.h:
+D:/Product/LoRa/RAK/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_fw.h:
 ../../../../../../../Middlewares/Third_Party/SubGHz_Phy/radio_def.h:
 ../../../../../../../Middlewares/Third_Party/SubGHz_Phy/radio_ex.h:
 ../../LoRaWAN/Target/radio_conf.h:
@@ -111,13 +113,15 @@ D:/PM_2022/LoRA\ Module/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/SubGHz_Ph
 ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal_rtc_ex.h:
 ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal_subghz.h:
 ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_spi.h:
-../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal_tim.h:
-../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal_tim_ex.h:
 ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal_uart.h:
 ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal_uart_ex.h:
 ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_system.h:
 ../../Core/Inc/main.h:
 ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_gpio.h:
+../../../../../../../Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo_radio.h:
+../../../../../../../Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo_errno.h:
+../../Core/Inc/stm32wlxx_nucleo_conf.h:
+../../../../../../../Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo.h:
 ../../Core/Inc/subghz.h:
 ../../LoRaWAN/Target/mw_log_conf.h:
 ../../../../../../../Utilities/trace/adv_trace/stm32_adv_trace.h:
@@ -126,5 +130,5 @@ D:/PM_2022/LoRA\ Module/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/SubGHz_Ph
 ../../Core/Inc/sys_debug.h:
 ../../Core/Inc/sys_conf.h:
 ../../Core/Inc/platform.h:
-D:/PM_2022/LoRA\ Module/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.h:
+D:/Product/LoRa/RAK/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.h:
 ../../LoRaWAN/Target/mw_log_conf.h:

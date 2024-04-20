@@ -1,5 +1,5 @@
 Middlewares/LoRaWAN/NvmDataMgmt.o: \
- D:/PM_2022/LoRA\ Module/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/LmHandler/NvmDataMgmt.c \
+ D:/Product/LoRa/RAK/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/LmHandler/NvmDataMgmt.c \
  ../../../../../../../Middlewares/Third_Party/LoRaWAN/Utilities/utilities.h \
  ../../Core/Inc/utilities_conf.h \
  ../../../../../../../Drivers/CMSIS/Include/cmsis_compiler.h \
@@ -23,7 +23,7 @@ Middlewares/LoRaWAN/NvmDataMgmt.o: \
  ../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCryptoNvm.h \
  ../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/secure-element-nvm.h \
  ../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassBNvm.h \
- D:/PM_2022/LoRA\ Module/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/LmHandler/NvmDataMgmt.h
+ D:/Product/LoRa/RAK/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/LmHandler/NvmDataMgmt.h
 ../../../../../../../Middlewares/Third_Party/LoRaWAN/Utilities/utilities.h:
 ../../Core/Inc/utilities_conf.h:
 ../../../../../../../Drivers/CMSIS/Include/cmsis_compiler.h:
@@ -47,4 +47,4 @@ Middlewares/LoRaWAN/NvmDataMgmt.o: \
 ../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCryptoNvm.h:
 ../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/secure-element-nvm.h:
 ../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassBNvm.h:
-D:/PM_2022/LoRA\ Module/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/LmHandler/NvmDataMgmt.h:
+D:/Product/LoRa/RAK/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/LmHandler/NvmDataMgmt.h:

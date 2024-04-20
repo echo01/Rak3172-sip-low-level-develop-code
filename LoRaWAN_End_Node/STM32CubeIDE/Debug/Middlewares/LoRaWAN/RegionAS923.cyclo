@@ -1,23 +1,23 @@
-D:/PM_2022/LoRA Module/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionAS923.c:144:13:VerifyRfFreq	3
-D:/PM_2022/LoRA Module/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionAS923.c:159:20:GetTimeOnAir	2
-D:/PM_2022/LoRA Module/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionAS923.c:177:12:RegionAS923GetPhyParam	38
-D:/PM_2022/LoRA Module/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionAS923.c:425:6:RegionAS923SetBandTxDone	1
-D:/PM_2022/LoRA Module/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionAS923.c:438:6:RegionAS923InitDefaults	6
-D:/PM_2022/LoRA Module/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionAS923.c:512:6:RegionAS923Verify	8
-D:/PM_2022/LoRA Module/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionAS923.c:626:6:RegionAS923ChanMaskSet	3
-D:/PM_2022/LoRA Module/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionAS923.c:650:6:RegionAS923ComputeRxWindowParameters	2
-D:/PM_2022/LoRA Module/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionAS923.c:672:6:RegionAS923RxConfig	6
-D:/PM_2022/LoRA Module/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionAS923.c:734:6:RegionAS923TxConfig	2
-D:/PM_2022/LoRA Module/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionAS923.c:778:9:RegionAS923LinkAdrReq	13
-D:/PM_2022/LoRA Module/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionAS923.c:885:9:RegionAS923RxParamSetupReq	4
-D:/PM_2022/LoRA Module/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionAS923.c:965:8:RegionAS923TxParamSetupReq	1
-D:/PM_2022/LoRA Module/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionAS923.c:971:8:RegionAS923DlChannelReq	5
-D:/PM_2022/LoRA Module/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionAS923.c:1003:8:RegionAS923AlternateDr	1
-D:/PM_2022/LoRA Module/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionAS923.c:1013:17:RegionAS923NextChannel	4
-D:/PM_2022/LoRA Module/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionAS923.c:1095:17:RegionAS923ChannelAdd	10
-D:/PM_2022/LoRA Module/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionAS923.c:1158:6:RegionAS923ChannelsRemove	2
-D:/PM_2022/LoRA Module/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionAS923.c:565:6:RegionAS923ApplyCFList	6
-D:/PM_2022/LoRA Module/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionAS923.c:912:8:RegionAS923NewChannelReq	7
-D:/PM_2022/LoRA Module/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionAS923.c:1178:6:RegionAS923SetContinuousWave	1
-D:/PM_2022/LoRA Module/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionAS923.c:1192:9:RegionAS923ApplyDrOffset	2
-D:/PM_2022/LoRA Module/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionAS923.c:1237:6:RegionAS923RxBeaconSetup	1
+RegionAS923.c:144:13:VerifyRfFreq	3
+RegionAS923.c:159:20:GetTimeOnAir	2
+RegionAS923.c:177:12:RegionAS923GetPhyParam	38
+RegionAS923.c:425:6:RegionAS923SetBandTxDone	1
+RegionAS923.c:438:6:RegionAS923InitDefaults	6
+RegionAS923.c:512:6:RegionAS923Verify	8
+RegionAS923.c:626:6:RegionAS923ChanMaskSet	3
+RegionAS923.c:650:6:RegionAS923ComputeRxWindowParameters	2
+RegionAS923.c:672:6:RegionAS923RxConfig	6
+RegionAS923.c:734:6:RegionAS923TxConfig	2
+RegionAS923.c:778:9:RegionAS923LinkAdrReq	13
+RegionAS923.c:885:9:RegionAS923RxParamSetupReq	4
+RegionAS923.c:965:8:RegionAS923TxParamSetupReq	1
+RegionAS923.c:971:8:RegionAS923DlChannelReq	5
+RegionAS923.c:1003:8:RegionAS923AlternateDr	1
+RegionAS923.c:1013:17:RegionAS923NextChannel	4
+RegionAS923.c:1095:17:RegionAS923ChannelAdd	11
+RegionAS923.c:1158:6:RegionAS923ChannelsRemove	2
+RegionAS923.c:565:6:RegionAS923ApplyCFList	6
+RegionAS923.c:912:8:RegionAS923NewChannelReq	7
+RegionAS923.c:1178:6:RegionAS923SetContinuousWave	1
+RegionAS923.c:1192:9:RegionAS923ApplyDrOffset	2
+RegionAS923.c:1237:6:RegionAS923RxBeaconSetup	1

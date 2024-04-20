@@ -64,7 +64,7 @@ typedef enum TxEventType_e
 } TxEventType_t;
 
 /* USER CODE BEGIN PTD */
-uint32_t AppCnt;
+
 /* USER CODE END PTD */
 
 /* Private define ------------------------------------------------------------*/
@@ -342,12 +342,7 @@ static UTIL_TIMER_Object_t JoinLedTimer;
 
 /* Exported functions ---------------------------------------------------------*/
 /* USER CODE BEGIN EF */
-static void AppCntloop(void);
 
-static void AppCntloop(void)
-{
-	AppCnt++;
-}
 /* USER CODE END EF */
 
 void LoRaWAN_Init(void)
@@ -420,7 +415,7 @@ void LoRaWAN_Init(void)
 
   /* USER CODE BEGIN LoRaWAN_Init_2 */
   UTIL_TIMER_Start(&JoinLedTimer);
-  UTIL_SEQ_RegTask((1 << CFG_SEQ_Task_CntApp), UTIL_SEQ_RFU, AppCntloop);
+
   /* USER CODE END LoRaWAN_Init_2 */
 
   LmHandlerJoin(ActivationType, ForceRejoin);
@@ -580,7 +575,6 @@ static void SendTxData(void)
 
     APP_LOG(TS_ON, VLEVEL_M, "VDDA: %d\r\n", batteryLevel);
     APP_LOG(TS_ON, VLEVEL_M, "temp: %d\r\n", (int16_t)(sensor_data.temperature));
-    APP_LOG(TS_ON,VLEVEL_M, "App cng: %d\r\n",AppCnt);
 
     AppData.Port = LORAWAN_USER_APP_PORT;
 

@@ -26,8 +26,7 @@
 
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN TD */
-#include "stm32_seq.h"
-#include "utilities_def.h"
+
 /* USER CODE END TD */
 
 /* Private define ------------------------------------------------------------*/
@@ -60,8 +59,6 @@ extern RTC_HandleTypeDef hrtc;
 extern SUBGHZ_HandleTypeDef hsubghz;
 extern DMA_HandleTypeDef hdma_usart2_tx;
 extern UART_HandleTypeDef huart2;
-extern TIM_HandleTypeDef htim1;
-
 /* USER CODE BEGIN EV */
 
 /* USER CODE END EV */
@@ -191,7 +188,6 @@ void SysTick_Handler(void)
   /* USER CODE BEGIN SysTick_IRQn 0 */
 
   /* USER CODE END SysTick_IRQn 0 */
-
   /* USER CODE BEGIN SysTick_IRQn 1 */
 
   /* USER CODE END SysTick_IRQn 1 */
@@ -272,20 +268,6 @@ void EXTI9_5_IRQHandler(void)
   /* USER CODE BEGIN EXTI9_5_IRQn 1 */
 
   /* USER CODE END EXTI9_5_IRQn 1 */
-}
-
-/**
-  * @brief This function handles TIM1 Update Interrupt.
-  */
-void TIM1_UP_IRQHandler(void)
-{
-  /* USER CODE BEGIN TIM1_UP_IRQn 0 */
-
-  /* USER CODE END TIM1_UP_IRQn 0 */
-  HAL_TIM_IRQHandler(&htim1);
-  /* USER CODE BEGIN TIM1_UP_IRQn 1 */
-  UTIL_SEQ_SetTask((1 << CFG_SEQ_Task_CntApp), CFG_SEQ_Prio_0);
-  /* USER CODE END TIM1_UP_IRQn 1 */
 }
 
 /**

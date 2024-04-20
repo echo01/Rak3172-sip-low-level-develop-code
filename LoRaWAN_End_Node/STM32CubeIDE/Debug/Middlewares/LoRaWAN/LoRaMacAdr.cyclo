@@ -1,2 +1,2 @@
-D:/PM_2022/LoRA Module/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacAdr.c:39:13:CalcNextV10X	8
-D:/PM_2022/LoRA Module/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacAdr.c:125:6:LoRaMacAdrCalcNext	2
+LoRaMacAdr.c:39:13:CalcNextV10X	8
+LoRaMacAdr.c:125:6:LoRaMacAdrCalcNext	2

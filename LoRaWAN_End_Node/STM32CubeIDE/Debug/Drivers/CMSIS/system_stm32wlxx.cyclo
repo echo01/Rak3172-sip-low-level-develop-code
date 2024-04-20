@@ -1,2 +1,2 @@
-D:/PM_2022/LoRA Module/STM32Cube_FW_WL_V1.3.0/Projects/NUCLEO-WL55JC/Applications/LoRaWAN/LoRaWAN_End_Node/Core/Src/system_stm32wlxx.c:211:6:SystemInit	1
-D:/PM_2022/LoRA Module/STM32Cube_FW_WL_V1.3.0/Projects/NUCLEO-WL55JC/Applications/LoRaWAN/LoRaWAN_End_Node/Core/Src/system_stm32wlxx.c:266:6:SystemCoreClockUpdate	8
+system_stm32wlxx.c:211:6:SystemInit	1
+system_stm32wlxx.c:266:6:SystemCoreClockUpdate	8
